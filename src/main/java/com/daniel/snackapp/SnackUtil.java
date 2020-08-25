@@ -33,10 +33,10 @@ public class SnackUtil {
             Snack tempSnack = new Snack();
 
             tempSnack.setName("TEST DATASOURCE");
-            tempSnack.setCalories(10f);
-            tempSnack.setFat(10f);
-            tempSnack.setCarbs(10f);
-            tempSnack.setProtein(10f);
+            tempSnack.setCalories(10);
+            tempSnack.setFat(10);
+            tempSnack.setCarbs(10);
+            tempSnack.setProtein(10);
 
             //start transaction
             session.beginTransaction();

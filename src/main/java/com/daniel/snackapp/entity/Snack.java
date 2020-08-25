@@ -15,16 +15,16 @@ public class Snack {
     private String name;
 
     @Column(name="calories")
-    private Float calories;
+    private Integer calories;
 
     @Column(name="fat")
-    private Float fat;
+    private Integer fat;
 
     @Column(name="carbs")
-    private Float carbs;
+    private Integer carbs;
 
     @Column(name="protein")
-    private Float protein;
+    private Integer protein;
 
     public Snack() {}
 //    public Snack(int id, String name, Float calories, Float fat, Float carbs, Float protein) {
@@ -54,35 +54,35 @@ public class Snack {
         this.name = name;
     }
 
-    public Float getCalories() {
+    public Integer getCalories() {
         return calories;
     }
 
-    public void setCalories(Float calories) {
+    public void setCalories(Integer calories) {
         this.calories = calories;
     }
 
-    public Float getFat() {
+    public Integer getFat() {
         return fat;
     }
 
-    public void setFat(Float fat) {
+    public void setFat(Integer fat) {
         this.fat = fat;
     }
 
-    public Float getCarbs() {
+    public Integer getCarbs() {
         return carbs;
     }
 
-    public void setCarbs(Float carbs) {
+    public void setCarbs(Integer carbs) {
         this.carbs = carbs;
     }
 
-    public Float getProtein() {
+    public Integer getProtein() {
         return protein;
     }
 
-    public void setProtein(Float protein) {
+    public void setProtein(Integer protein) {
         this.protein = protein;
     }
 
